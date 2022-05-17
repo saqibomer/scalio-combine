@@ -18,6 +18,11 @@
 		AAD496FA2833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */; };
 		AAD49708283394E300FD50CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD49707283394E300FD50CF /* User.swift */; };
 		AAD4970A283394F800FD50CF /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD49709283394F800FD50CF /* UserResponse.swift */; };
+		AAD4970D2833D0F700FD50CF /* WebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4970C2833D0F700FD50CF /* WebRepository.swift */; };
+		AAD4970F2833D13900FD50CF /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4970E2833D13900FD50CF /* ApiCall.swift */; };
+		AAD497112833D1C500FD50CF /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497102833D1C500FD50CF /* NetworkHelper.swift */; };
+		AAD497142833D20400FD50CF /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497132833D20400FD50CF /* Loadable.swift */; };
+		AAD497162833D21A00FD50CF /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497152833D21A00FD50CF /* CancelBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AAD49707283394E300FD50CF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AAD49709283394F800FD50CF /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		AAD4970C2833D0F700FD50CF /* WebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRepository.swift; sourceTree = "<group>"; };
+		AAD4970E2833D13900FD50CF /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		AAD497102833D1C500FD50CF /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		AAD497132833D20400FD50CF /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		AAD497152833D21A00FD50CF /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,8 @@
 		AAD496D62833946D00FD50CF /* scalio-test-combine */ = {
 			isa = PBXGroup;
 			children = (
+				AAD497122833D1E600FD50CF /* Utilities */,
+				AAD4970B2833D0E700FD50CF /* Network */,
 				AAD49706283394B600FD50CF /* Models */,
 				AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */,
 				AAD496D92833946D00FD50CF /* ContentView.swift */,
@@ -145,6 +157,25 @@
 				AAD49709283394F800FD50CF /* UserResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AAD4970B2833D0E700FD50CF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4970C2833D0F700FD50CF /* WebRepository.swift */,
+				AAD4970E2833D13900FD50CF /* ApiCall.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AAD497122833D1E600FD50CF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AAD497102833D1C500FD50CF /* NetworkHelper.swift */,
+				AAD497132833D20400FD50CF /* Loadable.swift */,
+				AAD497152833D21A00FD50CF /* CancelBag.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +309,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */,
+				AAD497112833D1C500FD50CF /* NetworkHelper.swift in Sources */,
 				AAD496E12833946F00FD50CF /* Persistence.swift in Sources */,
 				AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */,
 				AAD49708283394E300FD50CF /* User.swift in Sources */,
 				AAD496D82833946D00FD50CF /* scalio_test_combineApp.swift in Sources */,
 				AAD4970A283394F800FD50CF /* UserResponse.swift in Sources */,
+				AAD4970F2833D13900FD50CF /* ApiCall.swift in Sources */,
+				AAD497162833D21A00FD50CF /* CancelBag.swift in Sources */,
+				AAD4970D2833D0F700FD50CF /* WebRepository.swift in Sources */,
+				AAD497142833D20400FD50CF /* Loadable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
