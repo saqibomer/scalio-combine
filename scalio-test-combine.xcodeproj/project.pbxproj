@@ -16,6 +16,8 @@
 		AAD496EE2833946F00FD50CF /* scalio_test_combineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */; };
 		AAD496F82833946F00FD50CF /* scalio_test_combineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */; };
 		AAD496FA2833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */; };
+		AAD49708283394E300FD50CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD49707283394E300FD50CF /* User.swift */; };
+		AAD4970A283394F800FD50CF /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD49709283394F800FD50CF /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		AAD496F32833946F00FD50CF /* scalio-test-combineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scalio-test-combineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineUITests.swift; sourceTree = "<group>"; };
 		AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAD49707283394E300FD50CF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AAD49709283394F800FD50CF /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		AAD496D62833946D00FD50CF /* scalio-test-combine */ = {
 			isa = PBXGroup;
 			children = (
+				AAD49706283394B600FD50CF /* Models */,
 				AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */,
 				AAD496D92833946D00FD50CF /* ContentView.swift */,
 				AAD496DB2833946F00FD50CF /* Assets.xcassets */,
@@ -131,6 +136,15 @@
 				AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */,
 			);
 			path = "scalio-test-combineUITests";
+			sourceTree = "<group>";
+		};
+		AAD49706283394B600FD50CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAD49707283394E300FD50CF /* User.swift */,
+				AAD49709283394F800FD50CF /* UserResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +280,9 @@
 				AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */,
 				AAD496E12833946F00FD50CF /* Persistence.swift in Sources */,
 				AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */,
+				AAD49708283394E300FD50CF /* User.swift in Sources */,
 				AAD496D82833946D00FD50CF /* scalio_test_combineApp.swift in Sources */,
+				AAD4970A283394F800FD50CF /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
