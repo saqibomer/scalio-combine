@@ -33,6 +33,7 @@
 		AAD4972D2833D98C00FD50CF /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4972C2833D98C00FD50CF /* Publisher+Extensions.swift */; };
 		AAD4972F2833DB3700FD50CF /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4972E2833DB3700FD50CF /* Result+Extensions.swift */; };
 		AAD497312833DB9E00FD50CF /* NSError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497302833DB9E00FD50CF /* NSError+Extensions.swift */; };
+		AAD497332833E14500FD50CF /* UsersWebRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497322833E14500FD50CF /* UsersWebRepositoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		AAD4972C2833D98C00FD50CF /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
 		AAD4972E2833DB3700FD50CF /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 		AAD497302833DB9E00FD50CF /* NSError+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Extensions.swift"; sourceTree = "<group>"; };
+		AAD497322833E14500FD50CF /* UsersWebRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWebRepositoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				AAD4971C2833D6A600FD50CF /* WebRepositoryTests.swift */,
+				AAD497322833E14500FD50CF /* UsersWebRepositoryTests.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				AAD4972F2833DB3700FD50CF /* Result+Extensions.swift in Sources */,
 				AAD497252833D87C00FD50CF /* RequestMocking.swift in Sources */,
 				AAD497202833D70A00FD50CF /* Mock.swift in Sources */,
+				AAD497332833E14500FD50CF /* UsersWebRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

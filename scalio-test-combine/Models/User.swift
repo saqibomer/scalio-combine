@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Codable {
+struct User: Codable,Identifiable, Equatable {
     
     var login: String
     var id: Int
@@ -21,6 +21,8 @@ struct User: Codable {
         case profileUrl = "url"
     }
 }
+
+
 
 extension User {
     static let mockedData: [User] = [

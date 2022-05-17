@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserResponse: Codable {
+struct UserResponse: Codable, Equatable {
     
     var totalCount: Int
     var inCompleteResult: Bool
@@ -28,6 +28,11 @@ extension UserResponse {
                                                         totalCount: User.mockedData.count,
                                                         inCompleteResult: false,
                                                         users: User.mockedData)
+    
+    static let mockedEmptyUsersData: UserResponse = UserResponse(
+                                                        totalCount: User.mockedData.count,
+                                                        inCompleteResult: false,
+                                                        users: [])
     
 }
 
