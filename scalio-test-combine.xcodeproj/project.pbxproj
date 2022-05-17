@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD496D82833946D00FD50CF /* scalio_test_combineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */; };
+		AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496D92833946D00FD50CF /* ContentView.swift */; };
+		AAD496DC2833946F00FD50CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD496DB2833946F00FD50CF /* Assets.xcassets */; };
+		AAD496DF2833946F00FD50CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD496DE2833946F00FD50CF /* Preview Assets.xcassets */; };
+		AAD496E12833946F00FD50CF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496E02833946F00FD50CF /* Persistence.swift */; };
+		AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAD496E22833946F00FD50CF /* scalio_test_combine.xcdatamodeld */; };
+		AAD496EE2833946F00FD50CF /* scalio_test_combineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */; };
+		AAD496F82833946F00FD50CF /* scalio_test_combineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */; };
+		AAD496FA2833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD496EA2833946F00FD50CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD496CC2833946D00FD50CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD496D32833946D00FD50CF;
+			remoteInfo = "scalio-test-combine";
+		};
+		AAD496F42833946F00FD50CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD496CC2833946D00FD50CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD496D32833946D00FD50CF;
+			remoteInfo = "scalio-test-combine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD496D42833946D00FD50CF /* scalio-test-combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scalio-test-combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineApp.swift; sourceTree = "<group>"; };
+		AAD496D92833946D00FD50CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAD496DB2833946F00FD50CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD496DE2833946F00FD50CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAD496E02833946F00FD50CF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AAD496E32833946F00FD50CF /* scalio_test_combine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scalio_test_combine.xcdatamodel; sourceTree = "<group>"; };
+		AAD496E92833946F00FD50CF /* scalio-test-combineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scalio-test-combineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineTests.swift; sourceTree = "<group>"; };
+		AAD496F32833946F00FD50CF /* scalio-test-combineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scalio-test-combineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineUITests.swift; sourceTree = "<group>"; };
+		AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD496D12833946D00FD50CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496E62833946F00FD50CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496F02833946F00FD50CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD496CB2833946D00FD50CF = {
+			isa = PBXGroup;
+			children = (
+				AAD496D62833946D00FD50CF /* scalio-test-combine */,
+				AAD496EC2833946F00FD50CF /* scalio-test-combineTests */,
+				AAD496F62833946F00FD50CF /* scalio-test-combineUITests */,
+				AAD496D52833946D00FD50CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD496D52833946D00FD50CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD496D42833946D00FD50CF /* scalio-test-combine.app */,
+				AAD496E92833946F00FD50CF /* scalio-test-combineTests.xctest */,
+				AAD496F32833946F00FD50CF /* scalio-test-combineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD496D62833946D00FD50CF /* scalio-test-combine */ = {
+			isa = PBXGroup;
+			children = (
+				AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */,
+				AAD496D92833946D00FD50CF /* ContentView.swift */,
+				AAD496DB2833946F00FD50CF /* Assets.xcassets */,
+				AAD496E02833946F00FD50CF /* Persistence.swift */,
+				AAD496E22833946F00FD50CF /* scalio_test_combine.xcdatamodeld */,
+				AAD496DD2833946F00FD50CF /* Preview Content */,
+			);
+			path = "scalio-test-combine";
+			sourceTree = "<group>";
+		};
+		AAD496DD2833946F00FD50CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAD496DE2833946F00FD50CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAD496EC2833946F00FD50CF /* scalio-test-combineTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */,
+			);
+			path = "scalio-test-combineTests";
+			sourceTree = "<group>";
+		};
+		AAD496F62833946F00FD50CF /* scalio-test-combineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */,
+				AAD496F92833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift */,
+			);
+			path = "scalio-test-combineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD496D32833946D00FD50CF /* scalio-test-combine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD496FD2833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combine" */;
+			buildPhases = (
+				AAD496D02833946D00FD50CF /* Sources */,
+				AAD496D12833946D00FD50CF /* Frameworks */,
+				AAD496D22833946D00FD50CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scalio-test-combine";
+			productName = "scalio-test-combine";
+			productReference = AAD496D42833946D00FD50CF /* scalio-test-combine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD496E82833946F00FD50CF /* scalio-test-combineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD497002833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combineTests" */;
+			buildPhases = (
+				AAD496E52833946F00FD50CF /* Sources */,
+				AAD496E62833946F00FD50CF /* Frameworks */,
+				AAD496E72833946F00FD50CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD496EB2833946F00FD50CF /* PBXTargetDependency */,
+			);
+			name = "scalio-test-combineTests";
+			productName = "scalio-test-combineTests";
+			productReference = AAD496E92833946F00FD50CF /* scalio-test-combineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD496F22833946F00FD50CF /* scalio-test-combineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD497032833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combineUITests" */;
+			buildPhases = (
+				AAD496EF2833946F00FD50CF /* Sources */,
+				AAD496F02833946F00FD50CF /* Frameworks */,
+				AAD496F12833946F00FD50CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD496F52833946F00FD50CF /* PBXTargetDependency */,
+			);
+			name = "scalio-test-combineUITests";
+			productName = "scalio-test-combineUITests";
+			productReference = AAD496F32833946F00FD50CF /* scalio-test-combineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD496CC2833946D00FD50CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AAD496D32833946D00FD50CF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AAD496E82833946F00FD50CF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AAD496D32833946D00FD50CF;
+					};
+					AAD496F22833946F00FD50CF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AAD496D32833946D00FD50CF;
+					};
+				};
+			};
+			buildConfigurationList = AAD496CF2833946D00FD50CF /* Build configuration list for PBXProject "scalio-test-combine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD496CB2833946D00FD50CF;
+			productRefGroup = AAD496D52833946D00FD50CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD496D32833946D00FD50CF /* scalio-test-combine */,
+				AAD496E82833946F00FD50CF /* scalio-test-combineTests */,
+				AAD496F22833946F00FD50CF /* scalio-test-combineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD496D22833946D00FD50CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD496DF2833946F00FD50CF /* Preview Assets.xcassets in Resources */,
+				AAD496DC2833946F00FD50CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496E72833946F00FD50CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496F12833946F00FD50CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD496D02833946D00FD50CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */,
+				AAD496E12833946F00FD50CF /* Persistence.swift in Sources */,
+				AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */,
+				AAD496D82833946D00FD50CF /* scalio_test_combineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496E52833946F00FD50CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD496EE2833946F00FD50CF /* scalio_test_combineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD496EF2833946F00FD50CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD496F82833946F00FD50CF /* scalio_test_combineUITests.swift in Sources */,
+				AAD496FA2833946F00FD50CF /* scalio_test_combineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD496EB2833946F00FD50CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD496D32833946D00FD50CF /* scalio-test-combine */;
+			targetProxy = AAD496EA2833946F00FD50CF /* PBXContainerItemProxy */;
+		};
+		AAD496F52833946F00FD50CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD496D32833946D00FD50CF /* scalio-test-combine */;
+			targetProxy = AAD496F42833946F00FD50CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAD496FB2833946F00FD50CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD496FC2833946F00FD50CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD496FE2833946F00FD50CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scalio-test-combine/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD496FF2833946F00FD50CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scalio-test-combine/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD497012833946F00FD50CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scalio-test-combine.app/scalio-test-combine";
+			};
+			name = Debug;
+		};
+		AAD497022833946F00FD50CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scalio-test-combine.app/scalio-test-combine";
+			};
+			name = Release;
+		};
+		AAD497042833946F00FD50CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "scalio-test-combine";
+			};
+			name = Debug;
+		};
+		AAD497052833946F00FD50CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LPSTH4CZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.kl.scalio-test-combineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "scalio-test-combine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD496CF2833946D00FD50CF /* Build configuration list for PBXProject "scalio-test-combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD496FB2833946F00FD50CF /* Debug */,
+				AAD496FC2833946F00FD50CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD496FD2833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD496FE2833946F00FD50CF /* Debug */,
+				AAD496FF2833946F00FD50CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD497002833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD497012833946F00FD50CF /* Debug */,
+				AAD497022833946F00FD50CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD497032833946F00FD50CF /* Build configuration list for PBXNativeTarget "scalio-test-combineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD497042833946F00FD50CF /* Debug */,
+				AAD497052833946F00FD50CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAD496E22833946F00FD50CF /* scalio_test_combine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAD496E32833946F00FD50CF /* scalio_test_combine.xcdatamodel */,
+			);
+			currentVersion = AAD496E32833946F00FD50CF /* scalio_test_combine.xcdatamodel */;
+			path = scalio_test_combine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAD496CC2833946D00FD50CF /* Project object */;
+}
