@@ -9,8 +9,8 @@ import SwiftUI
 
 @main
 struct scalio_test_combineApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

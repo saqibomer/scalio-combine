@@ -11,7 +11,6 @@
 		AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496D92833946D00FD50CF /* ContentView.swift */; };
 		AAD496DC2833946F00FD50CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD496DB2833946F00FD50CF /* Assets.xcassets */; };
 		AAD496DF2833946F00FD50CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD496DE2833946F00FD50CF /* Preview Assets.xcassets */; };
-		AAD496E12833946F00FD50CF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496E02833946F00FD50CF /* Persistence.swift */; };
 		AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAD496E22833946F00FD50CF /* scalio_test_combine.xcdatamodeld */; };
 		AAD496EE2833946F00FD50CF /* scalio_test_combineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */; };
 		AAD496F82833946F00FD50CF /* scalio_test_combineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD496F72833946F00FD50CF /* scalio_test_combineUITests.swift */; };
@@ -59,7 +58,6 @@
 		AAD496D92833946D00FD50CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAD496DB2833946F00FD50CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD496DE2833946F00FD50CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AAD496E02833946F00FD50CF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AAD496E32833946F00FD50CF /* scalio_test_combine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scalio_test_combine.xcdatamodel; sourceTree = "<group>"; };
 		AAD496E92833946F00FD50CF /* scalio-test-combineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scalio-test-combineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scalio_test_combineTests.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 				AAD496D72833946D00FD50CF /* scalio_test_combineApp.swift */,
 				AAD496D92833946D00FD50CF /* ContentView.swift */,
 				AAD496DB2833946F00FD50CF /* Assets.xcassets */,
-				AAD496E02833946F00FD50CF /* Persistence.swift */,
 				AAD496E22833946F00FD50CF /* scalio_test_combine.xcdatamodeld */,
 				AAD496DD2833946F00FD50CF /* Preview Content */,
 			);
@@ -399,7 +396,6 @@
 			files = (
 				AAD496E42833946F00FD50CF /* scalio_test_combine.xcdatamodeld in Sources */,
 				AAD497112833D1C500FD50CF /* NetworkHelper.swift in Sources */,
-				AAD496E12833946F00FD50CF /* Persistence.swift in Sources */,
 				AAD496DA2833946D00FD50CF /* ContentView.swift in Sources */,
 				AAD49708283394E300FD50CF /* User.swift in Sources */,
 				AAD496D82833946D00FD50CF /* scalio_test_combineApp.swift in Sources */,
