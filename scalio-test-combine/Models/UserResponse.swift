@@ -28,4 +28,6 @@ extension UserResponse {
                                                         totalCount: User.mockedData.count,
                                                         inCompleteResult: false,
                                                         users: User.mockedData)
+    
 }
+

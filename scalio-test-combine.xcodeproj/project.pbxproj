@@ -23,6 +23,16 @@
 		AAD497112833D1C500FD50CF /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497102833D1C500FD50CF /* NetworkHelper.swift */; };
 		AAD497142833D20400FD50CF /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497132833D20400FD50CF /* Loadable.swift */; };
 		AAD497162833D21A00FD50CF /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497152833D21A00FD50CF /* CancelBag.swift */; };
+		AAD4971A2833D2B400FD50CF /* UsersWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497192833D2B400FD50CF /* UsersWebRepository.swift */; };
+		AAD4971D2833D6A600FD50CF /* WebRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4971C2833D6A600FD50CF /* WebRepositoryTests.swift */; };
+		AAD497202833D70A00FD50CF /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4971F2833D70A00FD50CF /* Mock.swift */; };
+		AAD497222833D74900FD50CF /* MockedWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497212833D74900FD50CF /* MockedWebRepository.swift */; };
+		AAD497252833D87C00FD50CF /* RequestMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497242833D87C00FD50CF /* RequestMocking.swift */; };
+		AAD497272833D8A600FD50CF /* MockedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497262833D8A600FD50CF /* MockedResponse.swift */; };
+		AAD4972A2833D8F100FD50CF /* MockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497292833D8F100FD50CF /* MockError.swift */; };
+		AAD4972D2833D98C00FD50CF /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4972C2833D98C00FD50CF /* Publisher+Extensions.swift */; };
+		AAD4972F2833DB3700FD50CF /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4972E2833DB3700FD50CF /* Result+Extensions.swift */; };
+		AAD497312833DB9E00FD50CF /* NSError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD497302833DB9E00FD50CF /* NSError+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +72,16 @@
 		AAD497102833D1C500FD50CF /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		AAD497132833D20400FD50CF /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		AAD497152833D21A00FD50CF /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		AAD497192833D2B400FD50CF /* UsersWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWebRepository.swift; sourceTree = "<group>"; };
+		AAD4971C2833D6A600FD50CF /* WebRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRepositoryTests.swift; sourceTree = "<group>"; };
+		AAD4971F2833D70A00FD50CF /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		AAD497212833D74900FD50CF /* MockedWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedWebRepository.swift; sourceTree = "<group>"; };
+		AAD497242833D87C00FD50CF /* RequestMocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMocking.swift; sourceTree = "<group>"; };
+		AAD497262833D8A600FD50CF /* MockedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedResponse.swift; sourceTree = "<group>"; };
+		AAD497292833D8F100FD50CF /* MockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockError.swift; sourceTree = "<group>"; };
+		AAD4972C2833D98C00FD50CF /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		AAD4972E2833DB3700FD50CF /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
+		AAD497302833DB9E00FD50CF /* NSError+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +132,7 @@
 		AAD496D62833946D00FD50CF /* scalio-test-combine */ = {
 			isa = PBXGroup;
 			children = (
+				AAD497172833D28000FD50CF /* Repositories */,
 				AAD497122833D1E600FD50CF /* Utilities */,
 				AAD4970B2833D0E700FD50CF /* Network */,
 				AAD49706283394B600FD50CF /* Models */,
@@ -136,6 +157,11 @@
 		AAD496EC2833946F00FD50CF /* scalio-test-combineTests */ = {
 			isa = PBXGroup;
 			children = (
+				AAD4972B2833D98000FD50CF /* Extensions */,
+				AAD497282833D8E300FD50CF /* MockError */,
+				AAD497232833D86400FD50CF /* NetworkMocking */,
+				AAD4971E2833D6F900FD50CF /* Mocks */,
+				AAD4971B2833D69400FD50CF /* Repositories */,
 				AAD496ED2833946F00FD50CF /* scalio_test_combineTests.swift */,
 			);
 			path = "scalio-test-combineTests";
@@ -176,6 +202,66 @@
 				AAD497152833D21A00FD50CF /* CancelBag.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AAD497172833D28000FD50CF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AAD497182833D29D00FD50CF /* UsersRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AAD497182833D29D00FD50CF /* UsersRepository */ = {
+			isa = PBXGroup;
+			children = (
+				AAD497192833D2B400FD50CF /* UsersWebRepository.swift */,
+			);
+			path = UsersRepository;
+			sourceTree = "<group>";
+		};
+		AAD4971B2833D69400FD50CF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4971C2833D6A600FD50CF /* WebRepositoryTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AAD4971E2833D6F900FD50CF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4971F2833D70A00FD50CF /* Mock.swift */,
+				AAD497212833D74900FD50CF /* MockedWebRepository.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		AAD497232833D86400FD50CF /* NetworkMocking */ = {
+			isa = PBXGroup;
+			children = (
+				AAD497242833D87C00FD50CF /* RequestMocking.swift */,
+				AAD497262833D8A600FD50CF /* MockedResponse.swift */,
+			);
+			path = NetworkMocking;
+			sourceTree = "<group>";
+		};
+		AAD497282833D8E300FD50CF /* MockError */ = {
+			isa = PBXGroup;
+			children = (
+				AAD497292833D8F100FD50CF /* MockError.swift */,
+			);
+			path = MockError;
+			sourceTree = "<group>";
+		};
+		AAD4972B2833D98000FD50CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4972C2833D98C00FD50CF /* Publisher+Extensions.swift */,
+				AAD4972E2833DB3700FD50CF /* Result+Extensions.swift */,
+				AAD497302833DB9E00FD50CF /* NSError+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +405,7 @@
 				AAD497162833D21A00FD50CF /* CancelBag.swift in Sources */,
 				AAD4970D2833D0F700FD50CF /* WebRepository.swift in Sources */,
 				AAD497142833D20400FD50CF /* Loadable.swift in Sources */,
+				AAD4971A2833D2B400FD50CF /* UsersWebRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +413,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD4972A2833D8F100FD50CF /* MockError.swift in Sources */,
+				AAD4971D2833D6A600FD50CF /* WebRepositoryTests.swift in Sources */,
+				AAD497222833D74900FD50CF /* MockedWebRepository.swift in Sources */,
 				AAD496EE2833946F00FD50CF /* scalio_test_combineTests.swift in Sources */,
+				AAD4972D2833D98C00FD50CF /* Publisher+Extensions.swift in Sources */,
+				AAD497312833DB9E00FD50CF /* NSError+Extensions.swift in Sources */,
+				AAD497272833D8A600FD50CF /* MockedResponse.swift in Sources */,
+				AAD4972F2833DB3700FD50CF /* Result+Extensions.swift in Sources */,
+				AAD497252833D87C00FD50CF /* RequestMocking.swift in Sources */,
+				AAD497202833D70A00FD50CF /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
