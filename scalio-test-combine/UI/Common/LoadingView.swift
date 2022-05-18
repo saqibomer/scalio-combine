@@ -10,7 +10,7 @@ import SwiftUI
 struct LoadingView: View {
     @State private var isLoading = false
     @State private var fill: CGFloat = 1
-    let timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 0.15, on: .main, in: .common).autoconnect()
     
     var animation: Animation {
         Animation.linear(duration: 1)

@@ -25,7 +25,6 @@ struct ContentView: View {
                 Text("Running unit tests")
             } else {
                 UsersList()
-                    .attachEnvironmentOverrides(onChange: onChangeHandler)
                     .inject(container)
             }
         }
