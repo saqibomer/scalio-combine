@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct scalio_test_combineApp: App {
     
+    let environment = AppEnvironment.bootstrap()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView(container: environment.container)
         }
     }
 }
